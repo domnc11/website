@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+<body>
+    <!-- Desktop Navigation -->
+    <nav id="desktop-nav">
+        <div class="logo"><b>ME, MYSELF, and I</b></div>
+        <div class="nav-container">
+            <ul class="nav-links">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT ME</a></li>
+                <li><a href="#hobbies">HOBBIES</a></li>
+                <li><a href="#memories">MEMORIES</a></li>
+                <li><a href="#achievements">ACHIEVEMENTS</a></li>
+                <li><a href="#socials">SOCIALS</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hamburger Navigation -->
+    <nav id="hamburger-nav">
+        <div class="logo">Renz Dominic R. Azul</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="menu-links">
+                <br>
+                <br>
+                <br>
+                <li><a href="#home" onclick="toggleMenu()">HOME</a></li>
+                <li><a href="#about" onclick="toggleMenu()">ABOUT ME</a></li>
+                <li><a href="#hobbies" onclick="toggleMenu()">HOBBIES</a></li>
+                <li><a href="#memories" onclick="toggleMenu()">MEMORIES</a></li>
+                <li><a href="#achievements" onclick="toggleMenu()">ACHIEVEMENTS</a></li>
+                <li><a href="#socials" onclick="toggleMenu()">SOCIALS</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="home">
+        <div class="home-content">
+          <h2>Hi</h2>
+          <h1>I'm Dominic</h1>
+          <p>Welcome to my portfolio! This is my space where I share who I am, what I’ve achieved, my interets, and what drives me forward. </p>
+        </div>
+        <div class="img-box">
+            <img src="assets/profie.jpg" alt="">
+        </div>
+    </section>
+    
+    <section id="about" class="about">
+        <div class="img-box">
+            <img class="img" src="assets/profile2.jpg" alt="">
+        </div>
+        <div class="about-content">
+            <h1 class="heading">About <span> Me</span></h1>
+            <p>My name is Renz Dominic R. Azul, and I am 20 years old. Born in October 11, 2004 under the sign of Libra. 
+                I'm currently a college student taking the Bachelor of Science in Information Technology at Camarines Norte
+                 College (CNSC).   </p>
+            <p> I have a balanced and charming personality. As an ESTP, I thrive in dynamic environments, enjoying new
+                 challenges and opportunities to interact with people.</p>
+        </div>
+       
+        </section>
+
+        <section id="hobbies" class="hobbies">
+            <h1 class="heading">My Hobbies and Interests</h1>
+            <div class="hobbies-container">
+                <!-- Box for Hobbies -->
+                <div class="box">
+                    <h2 class="sub-heading">My Hobbies</h2>
+                    <ul>
+                        <li>Dancing</li>
+                        <li>Singing</li>
+                        <li>Playing Online Games</li>
+                        <li>Drawing</li>
+                    </ul>
+                </div>
+                <!-- Box for Interests -->
+                <div class="box">
+                    <h2 class="sub-heading">My Interests</h2>
+                    <ul>
+                        <li>Voice Acting</li>
+                        <li>Cosplaying</li>
+                        <li>Crochet</li>
+                        <li>Film-making</li>
+                    </ul>
+                </div>
+            </div>
+        </section>    
+        
+
+        
+    <section id="memories" class="memories">
+
+        <h1 class="title">Good Days</h1>
+
+        <div class="gallery"> 
+            <img src="assets/img5.jpg" alt="Memory Image 1">
+            <video controls>
+                <source src="assets/11c9f3e5-25e9-460b-b288-f26c63d765d1.mp4">
+            </video>
+            <img src="assets/img2.jpg" alt="Memory Image 2">
+            <video controls>
+                <source src="assets/5c919a45-cffa-4215-a348-5eb135533f7a.mp4">
+            </video>
+            <video controls>
+                <source src="assets/c941945b-fe99-4006-aa42-ac5aeb21fd58.mp4">
+            </video>
+           
+           
+            <img src="assets/img3.jpg" alt="Memory Image 3">
+            <video controls>
+                <source src="assets/42af0441-bff1-40ab-be44-1ac1dcc52b9f.mp4">
+            </video>
+            <img src="assets/img4.jpg" alt="Memory Image 4">
+            
+        </div>
+    </section>
+
+    
+    <section id="achievements" class="achievements">
+        <h2 class="section-title">My Achievements</h2>
+        <div class="achievements-info">     
+            <div class="grid">
+
+                <div class="grid-card">
+                   <i class="fa-solid fa-book"></i>
+                   <span>Academics</span>
+                   <p>I am a consistent honor student and a legislative 
+                    member of our department's student organization. 
+                    i'm also the block mayor of our class.</p>
+                </div>
+
+                
+                <div class="grid-card">
+                    <i class="fa-solid fa-face-smile"></i>
+                    <span>Personal Development</span>
+                    <p>Learned time management and prioritization 
+                        skills through balancing multiple projects 
+                        and responsibilities.</p>
+                 </div>
+
+                <div class="grid-card">
+                    <i class="fa-solid fa-heart"></i>
+                    <span>Relationships</span>
+                    <p>Built strong, meaningful connections through
+                     open communication and trust. I have multiple circle of 
+                     friends who I treasure.</p>
+                 </div>     
+                 
+                 <div class="grid-card">
+                    <i class="fa-solid fa-chalkboard"></i>
+                    <span>Public Speaking</span>
+                    <p>Gained proficiency in public speaking and delivered
+                         impactful presentations during school or community events.</p>
+                 </div>
+
+            </div>
+            <img src="assets/profile3.jpg" class="ima" alt="">
+        </div>  
+    </section>
+
+    
+    <section id="socials" class="socials">
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="assets/facebook.jpg" alt="Facebook Account">
+                <a href="https://www.facebook.com/renzdominic.azul?mibextid=ZbWKwL" target="_blank" class="image-title">Facebook</a>
+            </div>
+            <div class="gallery-item">
+                <img src="assets/ig.jpg" alt="Instagram Account">
+                <a href="https://www.instagram.com/domnc11?igsh=MTFybXowMmV4eXY1bA==" target="_blank" class="image-title">Instagram</a>
+            </div>
+            <div class="gallery-item">
+                <img src="assets/tiktok.jpg" alt="TikTok Account">
+                <a href="https://www.tiktok.com/@cdmonic_11?_t=8rr946XQJqk&_r=1" target="_blank" class="image-title">TikTok</a>
+            </div>
+            <div class="gallery-item">
+                <img src="assets/twitter.jpg" alt="Twitter Account">
+                <a href="https://www.x.com/dmonic_11" target="_blank" class="image-title">Twitter</a>
+            </div>
+        </div>
+        <h1 class="title">Connect with Me</h1>
+    </section>
+    
+    <!-- Footer with Navigation -->
+    <footer>
+        <nav id="footer-nav" class="footer-nav">
+            <ul class="navi-links">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT ME</a></li>
+                <li><a href="#hobbies">HOBBIES</a></li>
+                <li><a href="#memories">MEMORIES</a></li>
+                <li><a href="#achievements">ACHIEVEMENTS</a></li>
+                <li><a href="#socials">SOCIALS</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
